@@ -1,0 +1,32 @@
+# Langchain Core
+langchain
+langchain-Core
+
+# OpenAI- Integration
+langchain-openai
+openai
+
+# Anthropic- Integration
+langchain-Anthropic
+
+# Google Gemini (PaLM)- Integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face- Integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+# Environment Varibale Management
+python-
+
+# Some extra for our embedding file
+sentence-transformers
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+
+
+## To run all these libraries in a single go, run this in your terminal: pip install -r requirements.txt
