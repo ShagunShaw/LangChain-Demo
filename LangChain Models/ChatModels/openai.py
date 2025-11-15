@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # You can check more available models in the OpenAI documentation.
-model= ChatOpenAI(model_name="gpt-4", temperature= 0)       # the 'temperature' parameter controls how creative or focused the responses are. It ranges from 0 to 2.
+model= ChatOpenAI(model_name="gpt-4", temperature= 0)       # the 'temperature' parameter controls how creative or focused the responses are. It ranges from 0 to 2. Closer to 0 means more focused and deterministic responses, while closer to 2 means more creative and random responses.
 
 result= model.invoke("What is the capital of India?")
 

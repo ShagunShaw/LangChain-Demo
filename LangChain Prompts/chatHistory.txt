@@ -1,0 +1,2 @@
+HumanMessage(content= I want a refund for my order #15284)
+AIMessage(content= Your refund for the order #15284 hs been initialized and will be tranfered to your account in 3 to 5 business days.)
