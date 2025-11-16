@@ -1,0 +1,14 @@
+Query (let) : Create a one day travel itenary for Paris
+
+Unstructured Outputs (The one we usually get from LLMs):
+Here's a suggested itenary
+-> Morining: Visit the Eifiel Tower
+-> Afternoon: Walk through the Louvre Museum
+-> Eveneing: Enjoy dinner at Siene Cafe
+
+Structured Outputs (we have to customise our prompt/code for this):
+[
+    {"time": "Morining" , "activity": "Visit the Eifiel Tower"},
+    {"time": "Afternoon" , "activity": "Walk through the Louvre Museum"},
+    {"time": "Eveneing" , "activity": "Enjoy dinner at Siene Cafe"}
+]
