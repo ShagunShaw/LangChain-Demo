@@ -12,3 +12,10 @@ Structured Outputs (we have to customise our prompt/code for this):
     {"time": "Afternoon" , "activity": "Walk through the Louvre Museum"},
     {"time": "Eveneing" , "activity": "Enjoy dinner at Siene Cafe"}
 ]
+
+
+Now there are some models (like Gemini, OpenAI's models) which can automatically generate Structured outputs when instructed from our side to do so by using the 'model.with_structured_output()' parameter. 
+
+But then there are some models which are incapable of generating Structured Outputs even though it is asked from our side. So to make those models generate Structured Outputs, we need to apply a different approach using 'Output Parsers' which helps converting our raw/unstructured output response into a Structured Outputs.
+
+# Note: We can use output parsers for both models i.e. for those who can generate structured outputs and for those also who cannot.
