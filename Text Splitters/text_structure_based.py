@@ -1,4 +1,4 @@
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # This 'RecursiveCharacterTextSplitter' is better from 'CharacterTextSplitter' because it captivates the semantic meaning of the text while splitting it into smaller chunks.
 
